@@ -1,6 +1,7 @@
 import { AddTask } from "@/components/AddTask";
 import { Header } from "../components/Header";
 import { TarefasContainer } from "../components/TarefasContainer";
+import { CalendarContainer } from "@/components/CalendarContainer";
 
 export default function Tarefas() {
     return (
@@ -13,6 +14,8 @@ export default function Tarefas() {
             </div>
 
             <AddTask/>
+
+            <CalendarContainer/>
         </div>
     )
 }
